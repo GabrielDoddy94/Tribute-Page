@@ -1,0 +1,122 @@
+:root {
+  --color-primary: #eeeeee;
+
+  --fs-standard: 62.5%;
+  --ff-primary: 'Lato', sans-serif;
+  --ff-secondary: 'Roboto', sans-serif;
+}
+
+*::before,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: var(--fs-standard);
+}
+
+body {
+  background: #fff;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: var(--ff-primary);
+  line-height: 1.6em;
+}
+
+image {
+  display: block;
+}
+
+#main {
+  background: var(--color-primary);
+  padding: 3rem;
+  border-radius: 0.5rem;
+  margin: 3rem 1rem;
+}
+
+header {
+  text-align: center;
+  margin: 3rem 0 1.5rem;
+}
+
+#title {
+  font-family: var(--ff-secondary);
+  font-size: 4rem;
+  letter-spacing: 0.03em;
+  margin-bottom: 3rem;
+}
+
+header p {
+  font-weight: 400;
+  word-spacing: 0.1em;
+}
+
+#img-div {
+  background: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 6rem;
+}
+
+#image {
+  max-width: 100%;
+  width: 100rem;
+  height: auto;
+}
+
+#img-div p {
+  margin: 0.5rem 0;
+}
+
+section {
+  margin: 0 auto 4rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+section ul {
+  max-width: 55rem;
+  margin: 0 auto;
+}
+
+section ul li {
+  margin: 1.6rem;
+}
+
+section ul li:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+section ul li span {
+  font-weight: 800;
+}
+
+figure {
+  color: #757575;
+  font-weight: 400;
+  font-style: italic;
+  max-width: 55rem;
+  margin: 0 auto 5rem;
+}
+
+figure blockquote p {
+  margin-bottom: 1.5rem;
+}
+
+#tribute-info {
+  font-size: 1.9rem;
+  font-family: var(--ff-secondary);
+  font-weight: 700;
+  text-align: center;
+}
